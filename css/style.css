@@ -92,5 +92,18 @@ h4 {
   color: #FFF;
   text-decoration: none;
 }
+/*=============================================
+  Forms
+=============================================*/
+form input[type="text"],
+form input[type="email"],
+form input[type="password"] {
+  border: none;
+  height: 54px;
+  outline: none;
+}
+form input[type="submit"] {
+  background-color: transparent;
+}
 /* Load section styles */
 /* Load responsive rules */
