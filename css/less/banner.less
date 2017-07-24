@@ -1,0 +1,57 @@
+/*=============================================
+  Banner / Slider
+=============================================*/
+
+.cycle-slideshow {
+  position: relative;
+}
+
+.slide {
+  min-height: 600px;
+  width: 100%;
+
+  padding-top: @baseline * 6;
+
+  text-align: center;
+}
+
+#slide-1 {
+  background: @color-dark-bg url('../images/slide-1-bg.jpg') 0 0 no-repeat;
+  background-size: cover;
+}
+
+#slide-2 {
+  background: @color-dark-bg url('../images/slide-2-bg.jpg') 0 0 no-repeat;
+  background-size: cover;
+}
+
+#slide-3 {
+  background: @color-dark-bg url('../images/slide-3-bg.jpg') 0 0 no-repeat;
+  background-size: cover;
+}
+
+.cycle-prev,
+.cycle-next {
+  margin-top: -1.5em;
+  position: absolute;
+  top: 50%;
+
+  z-index: 10000;
+
+  a {
+    color: rgba(255, 255, 255, .5);
+    font-size: 3em;
+
+    &:hover {
+      color: #FFF;
+    }
+  }
+}
+
+.cycle-prev {
+  left: 3em;
+}
+
+.cycle-next {
+  right: 3em;
+}
