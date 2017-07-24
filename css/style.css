@@ -70,5 +70,27 @@ h4 {
 .center-content {
   text-align: center;
 }
+/* Load element styles */
+/*=============================================
+  Buttons
+=============================================*/
+.btn {
+  border: 1px solid #f2ae5d;
+  display: inline-block;
+  height: 54px;
+  min-width: 10em;
+  padding: 0.7em 1em;
+  color: #f2ae5d;
+  font-weight: bold;
+  font-style: normal;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+}
+.btn:hover {
+  background-color: #f2ae5d;
+  color: #FFF;
+  text-decoration: none;
+}
 /* Load section styles */
 /* Load responsive rules */
