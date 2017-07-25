@@ -1,0 +1,71 @@
+/*=============================================
+  Main Content
+=============================================*/
+
+.main-content {
+  margin-bottom: @theme-margin;
+}
+
+.section-header {
+  margin-bottom: @baseline * 2;
+}
+
+.portfolio-thumb {
+  position: relative;
+  margin-bottom: @baseline;
+
+  img {
+    border: 3px solid #FFF;
+    -webkit-box-shadow: 0 0 0 1px @color-border;
+    box-shadow: 0 0 0 1px @color-border;
+
+    width: 100%;
+    height: auto;
+
+    position: relative;
+    z-index: 100;
+
+    &:hover {
+      opacity: .2;
+    }
+  }
+}
+
+.hover-contents {
+  background-color: #000;
+
+  padding: @baseline * 2;
+  position: absolute;
+  top: 0;
+
+  color: #FFF;
+  text-align: center;
+
+  width: 100%;
+  height: 100%;
+
+  h3 {
+    color: @color-button-1;
+
+    margin-bottom: @baseline * 2;
+  }
+
+  p {
+    font-size: 0.75em;
+    letter-spacing: 1px;
+  }
+}
+
+.project-description {
+  h2 {
+    font-weight: bold;
+  }
+}
+
+.project-nav {
+  font-style: italic;
+}
+
+.project-nav-right {
+  float: right;
+}
