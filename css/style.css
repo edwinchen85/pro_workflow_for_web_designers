@@ -100,10 +100,15 @@ form input[type="email"],
 form input[type="password"] {
   border: none;
   height: 54px;
+  padding: 0 13.5px;
+  min-width: 15em;
   outline: none;
 }
 form input[type="submit"] {
   background-color: transparent;
+}
+form input[type="email"] + input[type="submit"] {
+  margin-left: 13.5px;
 }
 /* Load section styles */
 /*=============================================
@@ -144,6 +149,10 @@ form input[type="submit"] {
 .cycle-slideshow {
   margin-bottom: 81px;
   position: relative;
+}
+.cycle-slideshow img {
+  width: 100%;
+  height: auto;
 }
 .slide {
   min-height: 600px;
@@ -270,5 +279,32 @@ form input[type="submit"] {
 }
 .project-nav-right {
   float: right;
+}
+.main-footer {
+  padding-bottom: 54px;
+}
+.main-footer .fancy-box {
+  font-size: 55px;
+  padding: 13.5px 27px;
+}
+.subscribe-section {
+  background-color: #333538;
+  margin-bottom: 81px;
+  margin-top: -27px;
+  padding: 81px 0;
+}
+.subscribe-section p {
+  color: #FFF;
+}
+.list-inline {
+  list-style-type: none;
+}
+.list-inline li {
+  display: inline;
+}
+.list-inline.social a {
+  display: inline-block;
+  font-size: 27px;
+  margin-bottom: 27px;
 }
 /* Load responsive rules */
